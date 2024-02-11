@@ -1,0 +1,5 @@
+.name-textbox,
+.email-textbox{
+  display: block;
+  margin-bottom: 5px;
+}
