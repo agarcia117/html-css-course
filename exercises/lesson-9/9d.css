@@ -1,0 +1,20 @@
+.background-box {
+  background-color:rgb(33, 33, 33);
+  padding: 15px 20px;
+  
+  width: 350px;
+}
+
+.install-text {
+  color: white;
+  font-weight: bold;
+  font-family: Roboto, Arial;
+  font-size: 23px;
+  margin: 0 0 10px 0;
+}
+
+.description-text {
+  color: rgb(153, 153, 153);
+  font-family: Roboto, Arial;
+  margin: 0 0 0 0;
+}
