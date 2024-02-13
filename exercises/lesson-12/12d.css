@@ -1,0 +1,8 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;
+}

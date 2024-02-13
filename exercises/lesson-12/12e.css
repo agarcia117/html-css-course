@@ -1,0 +1,26 @@
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 5px;
+}
+
+.row-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 7px;
+}
+
+.names {
+  font-family: Arial;
+}
+
+.counter {
+  background-color: #3771e1;
+  padding: 4px 11px;
+  border-radius: 20px;
+  color: white;
+}
