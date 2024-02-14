@@ -1,0 +1,50 @@
+body {
+  height: 3000px;
+  font-family: Arial;
+}
+
+.overlay-contents{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+  background-color: white;
+  height: 110px;
+  width: 380px;
+  border-radius: 6px;
+  z-index: 3;
+}
+
+.overlay-title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.overlay-message{
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: green;
+  color: white;
+  width: 100px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.darken-screen{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
