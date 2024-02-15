@@ -1,0 +1,22 @@
+.image {
+  height: 300px;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 4px 5px;
+  font-size: 14px
+}
+
+body {
+  font-family: Arial;
+}
