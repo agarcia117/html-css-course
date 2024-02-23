@@ -1,0 +1,11 @@
+body {
+  font-family: GT America;
+  background-color: black;
+  color: white;
+  height: 3000px;
+}
+
+.whole-page {
+  display: flex;
+  flex-direction: row;
+}
